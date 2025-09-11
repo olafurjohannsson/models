@@ -14,7 +14,7 @@ export default {
     }
 
     try {
-      const modelUrl = "https://github.com/olafurjohannsson/models/raw/refs/heads/main/ggml-tiny.en.bin";
+      const modelUrl = "https://raw.githubusercontent.com/olafurjohannsson/models/refs/heads/main/ggml-tiny.en.bin";
       const response = await fetch(modelUrl);
       
       if (!response.ok) {
