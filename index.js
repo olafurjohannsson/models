@@ -7,6 +7,7 @@ export default {
       headers: {
         "Content-Type": "application/octet-stream",
         "Cross-Origin-Resource-Policy": "same-origin",
+	"Access-Control-Allow-Origin": "https://caption-kjarni-ai.pages.dev"
       },
     });
   },
